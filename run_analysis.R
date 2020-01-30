@@ -58,6 +58,9 @@ names(SelectedData) <- gsub("-mean()", "mean", names(SelectedData), ignore.case 
 names(SelectedData) <- gsub("-std()", "STD", names(SelectedData), ignore.case = TRUE)
 names(SelectedData) <- gsub("-freq()", "frequency", names(SelectedData), ignore.case = TRUE)
 
+#Remove dots froma variable names.
+names(SelectedData) <- gsub("\\.", "", names(SelectedData))
+
 
 #STEP 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
