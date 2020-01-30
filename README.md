@@ -19,7 +19,7 @@ The `run_analysis.R` script should be run on the [data] (https://d396qusza40orc.
 This repository contains 3 main files:
 
  - `run_analysis.R` - This script will extract and load al the information, also will generate a tidy version of the information for later                        study.
- - `tidy.txt` - This is the final output from the `run_analysis.R` script.
- - `CodeBook.md` - Contains the definitions of each of the columns in our generated `tidy.txt` file.
+ - `tidySet.txt` - This is the final output from the `run_analysis.R` script.
+ - `CodeBook.md` - Contains the definitions of each of the columns in our generated `tidySet.txt` file.
 
 
